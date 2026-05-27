@@ -13,7 +13,6 @@ target/
 *.wasm
 
 # Environment
-.env
 *.env.local
 
 # Logs
@@ -27,3 +26,4 @@ Thumbs.db
 # Python venv
 venv/
 .venv/
+config.bat
