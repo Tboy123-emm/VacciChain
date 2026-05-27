@@ -12,9 +12,8 @@ build/
 target/
 *.wasm
 
-# Environment
-.env
-*.env.local
+# Environment — ignore all .env variants except the example template
+!.env.example
 
 # Logs
 *.log
@@ -27,3 +26,7 @@ Thumbs.db
 # Python venv
 venv/
 .venv/
+
+# IDE
+.idea/
+config.bat
