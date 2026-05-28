@@ -13,8 +13,6 @@ target/
 *.wasm
 
 # Environment — ignore all .env variants except the example template
-.env
-.env.*
 !.env.example
 
 # Logs
@@ -30,5 +28,5 @@ venv/
 .venv/
 
 # IDE
-.vscode/
 .idea/
+config.bat
